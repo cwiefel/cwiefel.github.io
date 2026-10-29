@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "news_archive.html",
-    "href": "news_archive.html",
-    "title": "News archive",
-    "section": "",
-    "text": "October 2026:    My personal website is online.\n\n← Back home"
-  },
-  {
-    "objectID": "news_archive.html#section",
-    "href": "news_archive.html#section",
-    "title": "News archive",
-    "section": "",
-    "text": "October 2026:    My personal website is online.\n\n← Back home"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Cedric Wiefel",
@@ -40,5 +26,19 @@
     "title": "Cedric Wiefel",
     "section": "News",
     "text": "News\n\nOctober 2026:    My personal website is online.\n\nArchive →"
+  },
+  {
+    "objectID": "news_archive.html",
+    "href": "news_archive.html",
+    "title": "News archive",
+    "section": "",
+    "text": "October 2026:    My personal website is online.\n\n← Back home"
+  },
+  {
+    "objectID": "news_archive.html#section",
+    "href": "news_archive.html#section",
+    "title": "News archive",
+    "section": "",
+    "text": "October 2026:    My personal website is online.\n\n← Back home"
   }
 ]
