@@ -11,7 +11,7 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/cwiefel
-    - icon: file-person-fill
+    - icon: envelope-fill
       text: CV
       href: cv_cedric_laurin_wiefel.pdf
 ---
