@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cedric Wiefel",
+    "section": "",
+    "text": "I am currently exploring opportunities where I can apply and learn more about causal inference.\nI hold a Master of Science in Statistics from the University of Copenhagen. A big part of my master’s, more than half, was spent studying causal discovery and causal inference. Before that, I obtained a Bachelor of Science in Mathematics from the University of Bonn with a focus on numerical mathematics and statistics.\nOutside of academia, I enjoy demanding sports, as they provide a good balance to theoretical work and help me stay motivated and maintain a strong work ethic. I competed in fencing for over ten years and attended a sports high school. I also enjoy reading classic literature, baking, and cooking with friends.\nOn this website, I share what I am currently working on, what I have been working on in the past, and what I am interested in."
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Cedric Wiefel",
+    "section": "",
+    "text": "I am currently exploring opportunities where I can apply and learn more about causal inference.\nI hold a Master of Science in Statistics from the University of Copenhagen. A big part of my master’s, more than half, was spent studying causal discovery and causal inference. Before that, I obtained a Bachelor of Science in Mathematics from the University of Bonn with a focus on numerical mathematics and statistics.\nOutside of academia, I enjoy demanding sports, as they provide a good balance to theoretical work and help me stay motivated and maintain a strong work ethic. I competed in fencing for over ten years and attended a sports high school. I also enjoy reading classic literature, baking, and cooking with friends.\nOn this website, I share what I am currently working on, what I have been working on in the past, and what I am interested in."
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Cedric Wiefel",
+    "section": "News",
+    "text": "News\n\nOctober 2026:    My personal website is online.\n\nArchive →"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Cedric Wiefel",
+    "section": "Research Interest",
+    "text": "Research Interest\nI recently completed a master’s degree in Statistics and have a strong background in simulation studies, machine learning, and mathematics. My interests lie in causal inference and its theoretical foundations, particularly targeted maximum likelihood estimation and semiparametric efficiency theory. I am motivated by developing advanced statistical methods and applying them to complex real-world problems, while communicating insights through effective visualisations and clear scientific writing.\n\n\nCausal inference\n\nCATE estimation\nA/B testing\nExperimental design\nEvidence synthesis\nAssumptions\n\n\n\nSemiparametric statistics\n\nEfficiency theory\nNonparametric estimation\nTMLE\nDouble/debiased ML\n\n\n\nMachine learning\n\nTree-based methods\nNeural networks\nEnsemble methods\nMeta-learners"
+  },
+  {
+    "objectID": "news_archive.html",
+    "href": "news_archive.html",
+    "title": "News archive",
+    "section": "",
+    "text": "October 2026:    My personal website is online.\n\n← Back home"
+  },
+  {
+    "objectID": "news_archive.html#section",
+    "href": "news_archive.html#section",
+    "title": "News archive",
+    "section": "",
+    "text": "October 2026:    My personal website is online.\n\n← Back home"
+  },
+  {
+    "objectID": "index.html#research_interests",
+    "href": "index.html#research_interests",
+    "title": "Cedric Wiefel",
+    "section": "Research interests",
+    "text": "Research interests\n\nCausal inference Assumptions and study design Semiparametric theory Nonparametric statistics TMLE DML Heterogeneous treatment effects Tree-based methods Ensemble methods Online experimentation\n\nBroadly, I am interested in causal inference and issues that arise when applying causal inference methods. More specifically, I am interested in assumption violations and how different study designs rely on different sets of assumptions to obtain valid causal estimates.\nIn the context of estimation, I find semiparametric theory compelling. I more drawn to targeted maximum likelihood estimation (TMLE), while also being interested in double/debiased machine learning (DML).\nBesides biostatistics and economics, two prominent fields of application for causal inference, I am also looking to explore online experimentation, including A/B testing.\nAs causal inference is a relatively young field, it offers many opportunities for methodological advances and for integrating causal methods into a wide range of other fields. In the longer term, I hope to pursue research that involves these developments and their applications. Overall, I see causal inference as a means of better understanding and modelling the world and thereby answering important questions."
+  }
+]

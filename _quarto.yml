@@ -1,0 +1,27 @@
+project: 
+  type: website
+  resources:
+    - CV_CEDRIC_LAURIN_WIEFEL.pdf
+
+
+website:
+  title: "Cedric Wiefel"
+  navbar:
+    left:
+      - text: About
+        href: "#about"
+      - text: Research interests
+        href: "#research_interests"
+      - text: News
+        href: "#news"
+
+format:
+  html:
+    respect-user-color-scheme: true
+    theme: 
+      light: flatly
+      dark: darkly
+    color-mode: true
+    toc: false
+    smooth-scroll: true
+    css: styles.css

@@ -1,0 +1,84 @@
+---
+title: "Cedric Wiefel"
+about:
+  template: jolla
+  image: Wiefel_Cedric_laurin_902-0019_1200.jpg
+  image-shape: round
+  links: 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/cedric-wiefel-755028293
+    - icon: github
+      text: GitHub
+      href: https://www.linkedin.com/in/cedric-wiefel-755028293
+    - icon: file-person-fill
+      text: CV
+      href: CV_CEDRIC_LAURIN_WIEFEL.pdf
+---
+
+
+
+## About {#about}
+
+
+I am currently exploring opportunities where I can apply and learn more about causal inference.
+
+
+I hold a [Master of Science in Statistics](https://www.ku.dk/studies/masters/statistics)
+from the [University of Copenhagen](https://www.ku.dk/en).
+A big part of my master's, more than half, was spent studying causal discovery and causal inference.
+Before that, I obtained a [Bachelor of Science in Mathematics](https://www.mathematics.uni-bonn.de/studium/en/study-programs/bachelor-mathematik) from the [University of Bonn](https://www.uni-bonn.de/en/home) with a focus on numerical mathematics and statistics.
+
+
+Outside of academia, I enjoy demanding sports, as they provide a good balance to theoretical work and help me stay motivated and maintain a strong work ethic.
+I competed in fencing for over ten years and attended a
+[sports high school](https://sportgymnasium-jena.info/).
+I also enjoy reading classic literature, baking, and cooking with friends.
+
+
+On this website, I share what I am currently working on, what I have been working on in the past, and what I am interested in.
+
+
+
+## Research interests {#research_interests}
+
+
+<div class="research-tags">
+  <span class="research-tag">Causal inference</span>
+  <span class="research-tag">Assumptions and study design</span>
+  <span class="research-tag">Semiparametric theory</span>
+  <span class="research-tag">Nonparametric statistics</span>
+  <span class="research-tag">TMLE</span>
+  <span class="research-tag">DML</span>
+  <span class="research-tag">Heterogeneous treatment effects</span>
+  <span class="research-tag">Tree-based methods</span>
+  <span class="research-tag">Ensemble methods</span>
+  <span class="research-tag">Online experimentation</span>
+</div>
+
+
+
+Broadly, I am interested in causal inference and issues that arise when applying causal inference methods.
+More specifically, I am interested in assumption violations and how different study designs rely on different sets of assumptions to obtain valid causal estimates.
+
+
+In the context of estimation, I find semiparametric theory compelling. I more drawn to targeted maximum likelihood estimation (TMLE), while also being interested in double/debiased machine learning (DML).
+
+
+Besides biostatistics and economics, two prominent fields of application for causal inference, I am also looking to explore online experimentation, including A/B testing.
+
+
+As causal inference is a relatively young field,
+it offers many opportunities for methodological advances and for integrating causal methods into a wide range of other fields.
+In the longer term, I hope to pursue research that involves these developments and their applications.
+Overall, I see causal inference as a means of better understanding and modelling the world and thereby answering important questions.
+
+
+
+## News {#news}
+
+- **October 2026:** &nbsp;&nbsp; My personal website is online.
+
+[Archive →](news_archive.qmd)
+
+

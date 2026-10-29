@@ -1,0 +1,68 @@
+---
+title: "Cedric Wiefel"
+about:
+  template: jolla
+  image: Wiefel_Cedric_laurin_902-0019_1200.jpg
+  image-shape: round
+  links: 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/cedric-wiefel-755028293
+    - icon: github
+      text: GitHub
+      href: https://www.linkedin.com/in/cedric-wiefel-755028293
+    - icon: file-person-fill
+      text: CV
+      href: CV_CEDRIC_LAURIN_WIEFEL.pdf
+---
+
+
+
+## About {#about}
+
+{{< lipsum 1  >}}
+
+
+## Research Interest {#research-interests}
+
+{{< lipsum 1 >}}
+
+
+<div class="three-grid">
+
+<div>
+
+**Causal inference**
+
+- CATE estimation
+- A/B testing
+- Experimental design
+- Evidence synthesis
+- Assumptions
+
+</div>
+
+<div>
+
+**Semiparametric statistics**
+
+- Efficiency theory
+- Nonparametric estimation
+- TMLE
+- Double/debiased ML
+
+</div>
+
+<div>
+
+**Machine learning**
+
+- Tree-based methods
+- Neural networks
+- Ensemble methods
+- Meta-learners
+
+
+</div>
+
+</div>

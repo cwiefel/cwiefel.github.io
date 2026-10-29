@@ -1,0 +1,184 @@
+.navbar {
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+#quarto-content {
+  padding-top: 80px;
+}
+
+
+[id] {
+  scroll-margin-top: 80px;
+}
+
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+
+body {
+  font-size: 1.05rem;
+}
+
+
+.quarto-about-jolla #quarto-document-content {
+  text-align: left;
+}
+
+
+.quarto-about-jolla .about-image {
+  order: 1;
+}
+.quarto-about-jolla #title-block-header {
+  order: 2;
+}
+.quarto-about-jolla .about-links {
+  order: 3;
+}
+.quarto-about-jolla main {
+  order: 4;
+}
+.quarto-about-jolla .about-sep {
+  display: none;
+}
+
+
+
+/* Dark/light mode toggle */
+.quarto-color-scheme-toggle {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+}
+
+
+.quarto-color-scheme-toggle .bi {
+  font-family: "bootstrap-icons";
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+/* Remove Bootstrap's default glyph */
+.quarto-color-scheme-toggle .bi::before {
+  display: none;
+}
+
+
+/* moon-stars-fill */
+.quarto-color-scheme-toggle:not(.alternate) .bi::after {
+  content: "\f495";
+  font-family: "bootstrap-icons";
+  text-decoration: none;
+}
+
+
+/* moon-stars */
+.quarto-color-scheme-toggle.alternate .bi::after {
+  content: "\f496";
+  font-family: "bootstrap-icons";
+  text-decoration: none;
+}
+
+
+
+/* Sections */
+.quarto-about-jolla main > section {
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* =========================
+   LIGHT MODE — Flatly
+   ========================= */
+
+.quarto-light .quarto-about-jolla main > section:nth-child(odd)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+
+  background-color: var(--bs-light);
+}
+
+.quarto-light .quarto-about-jolla main > section:nth-child(even)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+
+  background-color: var(--bs-body-bg);
+}
+
+
+/* =========================
+   DARK MODE — Darkly
+   ========================= */
+
+.quarto-dark .quarto-about-jolla main > section:nth-child(odd)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+
+  background-color: var(--bs-dark);
+}
+
+.quarto-dark .quarto-about-jolla main > section:nth-child(even)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+
+  background-color: var(--bs-body-bg);
+}
+
+
+
+.three-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.three-grid > div {
+  min-width: 0;
+}
+
+.three-grid ul {
+  padding-left: 1.2rem;
+}
+
+.three-grid li {
+  margin-bottom: 0.3rem;
+}
+
+
+@media (max-width: 768px) {
+  .three-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

@@ -1,0 +1,9 @@
+---
+title: "News archive"
+---
+
+## 2026
+
+- **October 2026:** &nbsp;&nbsp; My personal website is online.
+
+[← Back home](index.qmd)
