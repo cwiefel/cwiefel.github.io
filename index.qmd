@@ -10,10 +10,10 @@ about:
       href: https://www.linkedin.com/in/cedric-wiefel-755028293
     - icon: github
       text: GitHub
-      href: https://www.linkedin.com/in/cedric-wiefel-755028293
+      href: https://github.com/cwiefel
     - icon: file-person-fill
       text: CV
-      href: CV_CEDRIC_LAURIN_WIEFEL.pdf
+      href: cv_cedric_laurin_wiefel.pdf
 ---
 
 

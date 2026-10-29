@@ -1,7 +1,10 @@
 project: 
   type: website
   resources:
-    - CV_CEDRIC_LAURIN_WIEFEL.pdf
+    - cv_cedric_laurin_wiefel.pdf
+
+execute:
+  freeze: auto
 
 
 website:
