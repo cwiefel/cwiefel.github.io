@@ -4,14 +4,14 @@
     "href": "news_archive.html",
     "title": "News archive",
     "section": "",
-    "text": "October 2026:    My personal website is online.\n\n← Back home"
+    "text": "October 2026:    Launched my personal website.\n\n← Back home"
   },
   {
     "objectID": "news_archive.html#section",
     "href": "news_archive.html#section",
     "title": "News archive",
     "section": "",
-    "text": "October 2026:    My personal website is online.\n\n← Back home"
+    "text": "October 2026:    Launched my personal website.\n\n← Back home"
   },
   {
     "objectID": "index.html",
@@ -39,6 +39,13 @@
     "href": "index.html#news",
     "title": "Cedric Wiefel",
     "section": "News",
-    "text": "News\n\nOctober 2026:    My personal website is online.\n\nArchive →"
+    "text": "News\n\nOctober 2026:    Launched my personal website.\n\nArchive →"
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Cedric Wiefel",
+    "section": "Research",
+    "text": "Research\n\nCausal inference Assumptions and study design Semiparametric theory Nonparametric statistics TMLE DML Heterogeneous treatment effects Tree-based methods Ensemble methods Online experimentation\n\nBroadly, I am interested in causal inference and issues that arise when applying causal inference methods. More specifically, I am interested in assumption violations and how different study designs rely on different sets of assumptions to obtain valid causal estimates.\nIn the context of estimation, I find semiparametric theory compelling. I more drawn to targeted maximum likelihood estimation (TMLE), while also being interested in double/debiased machine learning (DML).\nBesides biostatistics and economics, two prominent fields of application for causal inference, I am also looking to explore online experimentation, including A/B testing.\nAs causal inference is a relatively young field, it offers many opportunities for methodological advances and for integrating causal methods into a wide range of other fields. In the longer term, I hope to pursue research that involves these developments and their applications. Overall, I see causal inference as a means of better understanding and modelling the world and thereby answering important questions."
   }
 ]

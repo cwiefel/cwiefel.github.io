@@ -40,7 +40,7 @@ On this website, I share what I am currently working on, what I have been workin
 
 
 
-## Research interests {#research_interests}
+## Research {#research}
 
 
 <div class="research-tags">
@@ -77,7 +77,7 @@ Overall, I see causal inference as a means of better understanding and modelling
 
 ## News {#news}
 
-- **October 2026:** &nbsp;&nbsp; My personal website is online.
+- **October 2026:** &nbsp;&nbsp; Launched my personal website.
 
 [Archive →](news_archive.qmd)
 

@@ -13,8 +13,8 @@ website:
     left:
       - text: About
         href: "#about"
-      - text: Research interests
-        href: "#research_interests"
+      - text: Research
+        href: "#research"
       - text: News
         href: "#news"
 

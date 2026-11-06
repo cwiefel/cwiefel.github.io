@@ -4,6 +4,6 @@ title: "News archive"
 
 ## 2026
 
-- **October 2026:** &nbsp;&nbsp; My personal website is online.
+- **October 2026:** &nbsp;&nbsp; Launched my personal website.
 
 [← Back home](index.qmd)
