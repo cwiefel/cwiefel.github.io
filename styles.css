@@ -4,20 +4,6 @@
   z-index: 1000;
 }
 
-#quarto-content {
-  padding-top: 80px;
-}
-
-
-[id] {
-  scroll-margin-top: 80px;
-}
-
-
-html {
-  scroll-behavior: smooth !important;
-}
-
 
 body {
   font-size: 1.05rem;
@@ -54,13 +40,11 @@ body {
   box-shadow: none;
 }
 
-
 .quarto-color-scheme-toggle .bi {
   font-family: "bootstrap-icons";
   font-style: normal;
   font-weight: normal;
 }
-
 
 /* Remove Bootstrap's default glyph */
 .quarto-color-scheme-toggle .bi::before {
@@ -75,7 +59,6 @@ body {
   text-decoration: none;
 }
 
-
 /* moon-stars */
 .quarto-color-scheme-toggle.alternate .bi::after {
   content: "\f496";
@@ -83,109 +66,143 @@ body {
   text-decoration: none;
 }
 
+/* toggle button success color */
+.quarto-color-scheme-toggle:hover {
+  color: var(--bs-success) !important;
+}
+
 
 
 /* Sections */
 .quarto-about-jolla main > section {
   position: relative;
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 3rem;
 }
 
-/* =========================
-   LIGHT MODE — Flatly
-   ========================= */
 
-.quarto-light .quarto-about-jolla main > section:nth-child(odd)::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 100vw;
-  transform: translateX(-50%);
 
-  background-color: var(--bs-light);
-  /*background-color: var(--bs-body-bg);*/
-}
+/*
+background-color: var(--bs-primary);
+background-color: var(--bs-secondary);
+background-color: var(--bs-success);
+background-color: var(--bs-info);
+background-color: var(--bs-warning);
+background-color: var(--bs-danger);
+background-color: var(--bs-light);
+background-color: var(--bs-dark);
 
-.quarto-light .quarto-about-jolla main > section:nth-child(even)::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 100vw;
-  transform: translateX(-50%);
 
+var(--bs-body-bg)
+var(--bs-body-color)
+var(--bs-secondary-bg)
+var(--bs-tertiary-bg)
+var(--bs-emphasis-color)
+*/
+
+
+
+/* BACKGROUND COLOR */
+
+/* LIGHT MODE — Flatly */
+.quarto-light .quarto-about-jolla main > section::before {
   background-color: var(--bs-body-bg);
-  /*background-color: var(--bs-light);*/
+}
+
+/* DARK MODE — Darkly */
+.quarto-dark .quarto-about-jolla main > section::before {
+  background-color: var(--bs-body-bg);
 }
 
 
-/* =========================
-   DARK MODE — Darkly
-   ========================= */
 
-.quarto-dark .quarto-about-jolla main > section:nth-child(odd)::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 100vw;
-  transform: translateX(-50%);
+/* NAVBAR COLOR */
 
+/*
+.navbar {
+  --bs-navbar-bg: #375a7f;
+  background-color: var(--bs-navbar-bg) !important;
+  --bs-navbar-hover-color: var(--bs-success);
+  --bs-navbar-brand-hover-color: var(--bs-success);
+  --bs-navbar-active-color: var(--bs-success);
+}
+*/
+
+
+#quarto-search {
+  display: none !important;
+}
+
+
+.quarto-light {
+  --my-text-color: var(--bs-body-color);
+}
+
+.quarto-dark {
+  --my-text-color: var(--bs-body-color);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .quarto-color-scheme-toggle {
+   color: var(--my-text-color);
+}
+
+
+
+.quarto-light .navbar {
+   --bs-navbar-color: var(--bs-light);
+}
+
+.quarto-dark .navbar {
+   --bs-navbar-color: var(--bs-dark);
+}
+
+
+.quarto-light .navbar{
+  background-color: var(--bs-light);
+}
+
+.quarto-dark .navbar{
   background-color: var(--bs-dark);
 }
 
-.quarto-dark .quarto-about-jolla main > section:nth-child(even)::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 100vw;
-  transform: translateX(-50%);
 
-  background-color: var(--bs-body-bg);
+
+
+/* LIGHT AND DARK MODE */
+.quarto-light .navbar,
+.quarto-dark .navbar {
+  --bs-navbar-hover-color: var(--bs-success);
+  --bs-navbar-brand-hover-color: var(--bs-success);
+  --bs-navbar-active-color: var(--bs-success);
 }
 
 
 
 
+/* NEWS */
 
-
-.three-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
-  margin-top: 2rem;
+#news::before {
+  content: none !important;
+  display: none !important;
 }
 
-.three-grid > div {
-  min-width: 0;
+/* NEWS LIGHT MODE */
+.quarto-light #news {
+  background-color: var(--bs-light);
+  box-shadow: 0 0 0 100vmax var(--bs-light);
+  clip-path: inset(0 -100vmax);
 }
 
-.three-grid ul {
-  padding-left: 1.2rem;
+/* NEWS DARK MODE */
+.quarto-dark #news {
+  background-color: var(--bs-dark);
+  box-shadow: 0 0 0 100vmax var(--bs-dark);
+  clip-path: inset(0 -100vmax);
 }
 
-.three-grid li {
-  margin-bottom: 0.3rem;
-}
 
-
-@media (max-width: 768px) {
-  .three-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-}
 
 
 
